@@ -1,0 +1,112 @@
+@media (max-width: 900px) {
+
+    .nav a:not(.nav-button) {
+        display: none;
+    }
+
+    .hero-content,
+    .about-content,
+    .project-content,
+    .research-grid,
+    .download-box {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        padding-top: 115px;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-text > p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons {
+        justify-content: center;
+    }
+
+    .hero-visual {
+        height: 430px;
+    }
+
+    .mvv {
+        grid-template-columns: 1fr;
+    }
+
+    .benefit-grid,
+    .members {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .download-visual {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .container {
+        width: calc(100% - 30px);
+    }
+
+    .section {
+        padding: 55px 0;
+    }
+
+    .hero {
+        min-height: auto;
+        padding-bottom: 45px;
+    }
+
+    .hero h1 {
+        letter-spacing: -2.5px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-buttons .button {
+        width: 100%;
+    }
+
+    .hero-visual {
+        height: 400px;
+    }
+
+    .hero-shape {
+        width: 300px;
+        height: 300px;
+    }
+
+    .benefit-grid,
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .members {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .project-header {
+        display: block;
+    }
+
+    .project-header .section-text {
+        margin-top: 14px;
+    }
+
+    .footer-content,
+    .footer-bottom {
+        flex-direction: column;
+    }
+
+    .footer-bottom {
+        gap: 5px;
+    }
+}

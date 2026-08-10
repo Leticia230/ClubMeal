@@ -1,0 +1,65 @@
+.download {
+    padding: 65px 0;
+    background: var(--amarelo);
+}
+
+.download-box {
+    min-height: 410px;
+    padding: 42px;
+    background: var(--laranja);
+    border-radius: 31px;
+    display: grid;
+    grid-template-columns: 1fr 0.8fr;
+    align-items: center;
+    gap: 35px;
+    overflow: hidden;
+}
+
+.download h2 {
+    max-width: 600px;
+    color: white;
+    font-size: clamp(35px, 4.8vw, 53px);
+    line-height: 1;
+    letter-spacing: -3px;
+    margin-bottom: 14px;
+}
+
+.download p {
+    max-width: 470px;
+    color: rgba(255, 255, 255, 0.86);
+    font-size: 12.5px;
+    line-height: 1.7;
+    margin-bottom: 19px;
+}
+
+.download-button {
+    background: white;
+    color: var(--preto);
+}
+
+.download-button.outline {
+    background: transparent;
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.download-visual {
+    height: 330px;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.download-circle {
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    background: var(--amarelo);
+    border-radius: 50%;
+}
+
+.download-phone {
+    width: 190px;
+    height: 370px;
+    transform: rotate(6deg);
+}

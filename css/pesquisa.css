@@ -1,0 +1,61 @@
+.research {
+    background: white;
+}
+
+.research-grid {
+    margin-top: 38px;
+    display: grid;
+    grid-template-columns: 1fr 0.85fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.research-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.research-item {
+    min-height: 70px;
+    padding: 13px 15px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: var(--creme);
+    border-radius: 14px;
+}
+
+.research-number {
+    color: var(--laranja);
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.research-item strong {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.research-item span {
+    color: var(--cinza);
+    font-size: 11px;
+}
+
+.research-highlight > span {
+    display: block;
+    color: var(--amarelo);
+    font-size: 110px;
+    font-weight: 800;
+    line-height: 0.75;
+    letter-spacing: -10px;
+}
+
+.research-highlight p {
+    max-width: 350px;
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 700;
+}

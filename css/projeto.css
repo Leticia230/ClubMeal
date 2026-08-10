@@ -1,0 +1,80 @@
+.project {
+    background: var(--preto);
+    color: white;
+}
+
+.project .section-title {
+    color: white;
+}
+
+.project .section-title span {
+    color: var(--amarelo);
+}
+
+.project .section-text {
+    color: #B6B6B6;
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 35px;
+}
+
+.project-header .section-text {
+    max-width: 420px;
+    margin: 0;
+}
+
+.project-content {
+    margin-top: 38px;
+    display: grid;
+    grid-template-columns: 1fr 0.82fr;
+    gap: 50px;
+    align-items: center;
+}
+
+.problem {
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.13);
+}
+
+.problem-number {
+    display: inline-grid;
+    place-items: center;
+    width: 28px;
+    height: 28px;
+    background: var(--laranja);
+    color: white;
+    border-radius: 50%;
+    font-size: 8px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.problem h3 {
+    font-size: 18px;
+    margin-bottom: 6px;
+}
+
+.problem p {
+    max-width: 570px;
+    color: #AFAFAF;
+    font-size: 12.5px;
+    line-height: 1.65;
+}
+
+.phone-area {
+    min-height: 420px;
+    background: #202020;
+    border-radius: 27px;
+    display: grid;
+    place-items: center;
+}
+
+.app-phone.large {
+    width: 205px;
+    height: 405px;
+    transform: rotate(-5deg);
+}

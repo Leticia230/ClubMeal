@@ -1,0 +1,107 @@
+.about {
+    background: white;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 0.85fr;
+    gap: 55px;
+    align-items: center;
+}
+
+.about-highlight {
+    padding: 30px;
+    background: var(--vermelho-claro);
+    border-radius: 25px;
+    border-left: 4px solid var(--vermelho);
+}
+
+.highlight-line {
+    display: block;
+    width: 45px;
+    height: 4px;
+    background: var(--vermelho);
+    margin-bottom: 22px;
+}
+
+.highlight-number {
+    color: var(--vermelho);
+    font-size: 10px;
+    font-weight: 800;
+}
+
+.about-highlight h3 {
+    max-width: 350px;
+    font-size: 22px;
+    line-height: 1.2;
+    margin: 12px 0 9px;
+}
+
+.about-highlight p {
+    color: #666;
+    font-size: 12px;
+    line-height: 1.7;
+}
+
+/* Missão, visão e valores */
+
+.mvv {
+    margin-top: 38px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 11px;
+}
+
+.mvv-card {
+    min-height: 245px;
+    padding: 24px;
+    border-radius: 23px;
+}
+
+.mission {
+    background: var(--preto);
+    color: white;
+}
+
+.vision {
+    background: var(--amarelo);
+    color: var(--preto);
+}
+
+.values {
+    background: var(--laranja);
+    color: white;
+}
+
+.mvv-number {
+    font-size: 9px;
+    font-weight: 800;
+    opacity: 0.55;
+}
+
+.mvv-card h3 {
+    margin-top: 55px;
+    margin-bottom: 9px;
+    font-size: 21px;
+}
+
+.mvv-card p {
+    font-size: 12px;
+    line-height: 1.65;
+    opacity: 0.86;
+}
+
+.value-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 13px;
+}
+
+.value-list span {
+    padding: 5px 8px;
+    background: rgba(255, 255, 255, 0.16);
+    border-radius: 100px;
+    font-size: 8px;
+    font-weight: 800;
+}
