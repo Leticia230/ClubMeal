@@ -68,7 +68,7 @@ img {
     max-width: 760px;
     font-size: clamp(33px, 4.7vw, 50px);
     line-height: 1.05;
-    letter-spacing: -2.7px;
+    letter-spacing: -1.7px;
 }
 
 .section-text {
@@ -105,4 +105,39 @@ img {
     gap: 8px;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.project-video-header {
+    margin-top: 70px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.project-video-header h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.project-video-header p {
+    max-width: 600px;
+    margin: 10px auto 0;
+    color: var(--cinza);
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.project-video {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.project-video video {
+    display: block;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 20px;
 }

@@ -14,10 +14,13 @@
 
 .members {
     margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    gap: 70px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    align-items: start;
 }
+
+
 
 .member-photo {
     width: 150px;
@@ -48,8 +51,16 @@
     object-fit: cover;
 }
 
+.member {
+    display: flex;
+    flex-direction: column;
+}
+
 .member-info {
+    width: 150px;
+    margin: 0 auto;
     padding-top: 10px;
+    min-height: 70px;
 }
 
 .member-info > span {

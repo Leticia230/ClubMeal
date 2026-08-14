@@ -32,8 +32,8 @@
 }
 
 .contact-card.featured {
-    background: var(--preto);
-    color: white;
+    background: var(--amarelo);
+    color: rgb(0, 0, 0);
 }
 
 .contact-icon {
@@ -69,7 +69,7 @@
 }
 
 .contact-card.featured h3 {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .contact-card p {
@@ -79,7 +79,7 @@
 }
 
 .contact-card.featured p {
-    color: #AAAAAA;
+    color: #1b1b1b;
 }
 
 .contact-card > strong {

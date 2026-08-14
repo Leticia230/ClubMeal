@@ -1,18 +1,18 @@
 .project {
-    background: var(--preto);
-    color: white;
+    background: #E5E5E5    ;
+    color: rgb(0, 0, 0);
 }
 
 .project .section-title {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .project .section-title span {
-    color: var(--amarelo);
+    color: var(--laranja);
 }
 
 .project .section-text {
-    color: #B6B6B6;
+    color: #1b1b1b;
 }
 
 .project-header {
@@ -60,14 +60,14 @@
 
 .problem p {
     max-width: 570px;
-    color: #AFAFAF;
+    color: #1b1b1b;
     font-size: 12.5px;
     line-height: 1.65;
 }
 
 .phone-area {
     min-height: 420px;
-    background: #202020;
+    background: #636363;
     border-radius: 27px;
     display: grid;
     place-items: center;

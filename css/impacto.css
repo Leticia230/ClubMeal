@@ -1,13 +1,13 @@
 .benefits {
-    background: var(--preto);
+    background: #E5E5E5;
 }
 
 .benefits .section-title {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .benefits .section-text {
-    color: #B5B5B5;
+    color: #1b1b1b;
 }
 
 .benefit-grid {
@@ -23,7 +23,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background: #202020;
+    background: #fffefe;
     border-radius: 19px;
     border-top: 3px solid var(--laranja);
 }
@@ -37,7 +37,7 @@
 }
 
 .benefit:nth-child(4) {
-    border-color: white;
+    border-color: var(--amarelo);
 }
 
 .benefit:nth-child(5) {
@@ -45,20 +45,20 @@
 }
 
 .benefit-number {
-    color: #777;
+    color: var(--amarelo);
     font-size: 10px;
     font-weight: 800;
 }
 
 .benefit h3 {
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     margin-top: 40px;
     margin-bottom: 7px;
 }
 
 .benefit p {
-    color: #A7A7A7;
+    color: #1b1b1b;
     font-size: 12px;
     line-height: 1.6;
 }
