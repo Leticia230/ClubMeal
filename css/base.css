@@ -127,17 +127,16 @@ img {
 }
 
 .project-video {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 60px;
+    width: 55%;
+    max-width: 700px;
+    margin: 40px auto 0;
+    aspect-ratio: 16 / 9;
 }
 
-.project-video video {
+.project-video iframe {
     display: block;
     width: 100%;
-    max-width: 900px;
-    margin: 0 auto;
-    border-radius: 20px;
+    height: 100%;
+    border: 0;
+    border-radius: 12px;
 }
