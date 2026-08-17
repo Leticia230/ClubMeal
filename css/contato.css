@@ -32,6 +32,7 @@
 }
 
 .contact-card.featured {
+    grid-column: 1/-1;
     background: var(--amarelo);
     color: rgb(0, 0, 0);
 }
